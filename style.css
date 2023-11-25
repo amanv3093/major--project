@@ -492,6 +492,7 @@ width: 90px;
                 }
                 .service-temp1-text{
                 margin-left:0rem !important;
+                margin-left: 30px !important;
                 }
                 .service-circle{
                 display: flex;
@@ -567,7 +568,7 @@ width: 90px;
                  }
                  .service-temp2-info{
                     margin: 0px !important;
-                    margin-left: 5px !important;
+                    margin-left: 8px !important;
                  }
                  .service-temp2-info h2{
                 margin-bottom: 14px;
