@@ -642,6 +642,7 @@ background-image: url('details-1-background.jpg');
 width: 42.2rem;
 height: 34.4rem;
 background-position: center;
+display: none;
 }
 .service-temp1-text{
 margin-left: 6rem;
@@ -768,5 +769,6 @@ font-weight: 800;
 height: 34.4rem;
 background-position: center;
 background-size: cover;
+display: none;
  }
  
