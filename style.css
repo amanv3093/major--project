@@ -486,7 +486,7 @@ width: 90px;
                 }
                 .service-temp1-img{
                 background-image: url('details-1-background.jpg');
-                width: 42.2rem;
+                width: 100% !important;
                 height: 34.4rem;
                 background-position: center;
                 }
@@ -503,14 +503,16 @@ width: 90px;
                    color:#14bf98;
                     }
                 .service-temp1-text h1{
-                    font-size: 1.7rem;
+                    font-size: 1.3rem !important;
+                    
                 }
                  .service-circle i{
-                    font-size: 36px;
+                    font-size: 20px !important;
                 }
                 .service-circle-logo p{
-                   padding: 12px;
-                   font-size: 18px;
+                    padding: 7px !important;
+                    font-size: 12px !important;
+                   
                 }
                 
                 .service-circle-logo{
@@ -524,6 +526,7 @@ width: 90px;
                 .service-temp1-text h2{
                     font-size: 22px;
                     font-weight: 800;
+                    font-size: 1.2rem !important;
                     }
                     .service-temp2{
                 display: flex;
@@ -564,6 +567,7 @@ width: 90px;
                  }
                  .service-temp2-info{
                     margin: 0px !important;
+                    margin-left: 5px !important;
                  }
                  .service-temp2-info h2{
                 margin-bottom: 14px;
@@ -614,7 +618,7 @@ width: 90px;
                  }
                  .service-temp2-img{
                     background-image: url('details-2-background.jpg');
-                    width: 100%;
+                    width: 100% !important;
                 height: 34.4rem;
                 background-position: center;
                 background-size: cover;
@@ -639,10 +643,10 @@ margin-top: 15%;
 }
 .service-temp1-img{
 background-image: url('details-1-background.jpg');
-width: 42.2rem;
+width: 50%;
 height: 34.4rem;
 background-position: center;
-display: none;
+
 }
 .service-temp1-text{
 margin-left: 6rem;
@@ -732,7 +736,7 @@ line-height: 25px;
     text-decoration: underline;
  }
  .info-line{
-
+width: 100%;
  }
  .info-line p{
 font-size: 0.95rem;
@@ -747,28 +751,28 @@ font-weight: 800;
     margin-top: 1.5rem;
  }
  .line1{
-    width: 28rem;
+    width: 88%;
    
     background: #14bf98;
     margin-bottom: 15px;
  }
  .line2{
-    width: 20rem;
+   width: 60;
     
     background: #14bf98;
     margin-bottom: 15px;
  }
  .line3{
-    width: 24rem;
+    width: 70%;
    
     background: #14bf98;
  }
  .service-temp2-img{
     background-image: url('details-2-background.jpg');
-    width: 42.2rem;
+width: 50%;
 height: 34.4rem;
 background-position: center;
 background-size: cover;
-display: none;
+
  }
  
