@@ -850,7 +850,201 @@ align-items: center;
  /*  */
 
 
- @media screen and (min-width:375px) and (max-width:600px) {
+
+
+ .about-detail{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10rem;
+ }
+ .about-text{
+
+ }
+ 
+ .about-text p{
+font-size: 0.85rem;
+color: #14bf98;
+margin-bottom: 10px;
+ }
+ .about-text h1{
+    color: #484a46;
+    font: 700 1.75rem/2.125rem "Montserrat",sans-serif;
+    margin-bottom: 10px;
+ }
+ .about-text h3{
+    color: #787976;
+    font: 400 1rem/1.5625rem "Open Sans",sans-serif;
+
+   margin-top: 18px;
+    margin-bottom: 1.8rem;
+    line-height: 25px;
+ }
+ .about-text .about-me-sqrt{
+margin-top: 15px;
+ }
+ .about-text .about-me-sqrt .about-sqr1{
+display: flex;
+align-items: center;
+justify-self: center;
+ }
+ #about-zoom{
+    font-size: 15px;
+ }
+ .about-text i{
+    font-size: 0.5rem;
+    color: #14bf98;
+    padding: 0px 10px;
+ }
+ .about-text  span{
+    color: #787976;
+   
+ }
+ .about-me-sqrt{
+
+ }
+ .about-me-sqrt ul{
+    display: flex;
+ }
+ .about-me-sqrt ul li{
+    list-style: none;
+ }
+ .about-me-sqrt ul li a{
+    text-decoration: underline;
+    color: #787976;
+ }
+ .about-logo{
+
+ }
+ .about-logo h2{
+    color: #484a46;
+    font: 700 1.375rem/1.75rem "Montserrat",sans-serif;
+    margin-top: 2rem;
+ }
+ .about-logo-1{
+    display: flex;
+    margin-top: 2rem;
+ }
+ .abt-img{
+    background-image: url(https://www.free-css.com/assets/files/free-css-templates/preview/page259/aria/assets/images/hexagon-green.svg);
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    margin: 0px 5px;
+ }
+ .abt-img i{
+    position: relative;
+    font-size: 23px;
+    color: white;
+ }
+ .aboutform{
+color: white;
+ }
+ .aboutform #about-code{
+width: 100%;
+padding: 9px 0px;
+color: white;
+ }
+ .aboutform form input{
+    width: 100%;
+    height: 3rem;
+    border-radius: 5px;
+    border: 1px solid #dadada;
+    
+    padding: 15px;
+    font-size: 15px;
+    color: #787976;
+ }
+ .aboutform form textarea{
+   
+    border-radius: 5px;
+    border: 1px solid #dadada;
+    
+    
+    font-size: 15px;
+    color: #787976;
+ }
+ .aboutform form input:hover{
+   
+    border: 1px solid #b3b1b1;
+    
+ }
+ #anch1{
+    color: #787976;
+    text-decoration: underline;
+ }
+ #about-code button{
+    width: 100%;
+    height: 3rem;
+    background: #14bf98;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 800;
+    margin-top: 1rem;
+ }
+ #about-code button:hover{
+    border:2px solid #14bf98;
+    background: transparent;
+    color: #14bf98;
+
+ }
+ #checkbox{
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    font-weight: 100;
+    color: #787976;
+ }
+ .contact-detail{
+   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+    padding-top: 4%;
+ }
+ .contact-main h4{
+    font: 700 1.25rem/1.625rem "Montserrat",sans-serif;
+    margin-bottom: 1rem;
+ }
+ .contact-main  ul{
+
+ }
+ .contact-main  ul li{
+list-style: none;
+line-height: 30px;
+ }
+ .contact-main  ul li a{
+    color: #dfe5ec;
+    text-decoration: underline;
+    font-size: 14px;
+ }
+ .contact-text{
+
+ }
+ .contact-text p{
+    color: #dfe5ec;
+    line-height: 22px;
+    font-size: 0.90rem;
+ }
+ footer{
+    margin-top: 8rem;
+    height: 52vh;
+    background-color: #153e52;
+ }
+ #copyright{
+    font: 400 0.875rem/1.375rem "Open Sans",sans-serif;
+    color: #ebe8e8;
+    text-align: center;
+    padding-top: 3rem;
+}
+ 
+
+
+@media screen and (min-width:375px) and (max-width:600px) {
     nav{
     
         display: flex;
@@ -1108,7 +1302,7 @@ width: 90px;
                     margin-bottom: 5rem;
                  }
                  .line1{
-                    width: 100%;
+                    width: 97%;
                    
                     background: #14bf98;
                     margin-bottom: 15px;
@@ -1190,6 +1384,7 @@ width: 90px;
                  }
                  .callform{
                 color: white;
+                margin-top:1rem ;
                  }
                  .callform #form-code{
                 width: 100%;
@@ -1472,20 +1667,24 @@ width: 90px;
                 font-size: 0.85rem;
                 color: #14bf98;
                 margin-bottom: 10px;
+                margin-left: 16px;
                  }
                  .about-text h1{
                     color: #484a46;
                     font: 700 1.75rem/2.125rem "Montserrat",sans-serif;
                     margin-bottom: 10px;
+                    margin-left: 16px;
                  }
                  .about-text h3{
                     color: #787976;
                     font: 400 1rem/1.5625rem "Open Sans",sans-serif;
+                    margin-left: 16px;
                 
                    margin-top: 18px;
                     margin-bottom: 1.8rem;
                     line-height: 25px;
                  }
+                 
                  .about-text .about-me-sqrt{
                 margin-top: 15px;
                  }
@@ -1552,6 +1751,7 @@ width: 90px;
                  }
                  .aboutform{
                 color: white;
+                max-width: 100%;
                  }
                  .aboutform #about-code{
                 width: 100%;
@@ -1572,6 +1772,7 @@ width: 90px;
                    
                     border-radius: 5px;
                     border: 1px solid #dadada;
+                    width: 100%;
                     
                     
                     font-size: 15px;
@@ -1610,13 +1811,12 @@ width: 90px;
                     color: #787976;
                  }
                  .contact-detail{
-                   
-                    flex-wrap: wrap;
-                    margin-left: 8px
+                   margin-left: 20px;
+                   display: block;
                  }
                  .contact-main h4{
                     font: 700 1.25rem/1.625rem "Montserrat",sans-serif;
-                    margin-bottom: 1rem;
+                    margin-bottom: 0px !important;
                  }
                  .contact-main  ul{
                 
@@ -1633,6 +1833,9 @@ width: 90px;
                  .contact-text{
                 
                  }
+                 .contact-link{
+                    margin-top: 18px;
+                 }
                  .contact-text p{
                     color: #dfe5ec;
                     line-height: 22px;
@@ -1640,7 +1843,7 @@ width: 90px;
                  }
                  footer{
                     margin-top: 8rem;
-                    height: 52vh;
+                    height: 97vh !important;
                     background-color: #153e52;
                  }
                  #copyright{
@@ -1653,194 +1856,3 @@ width: 90px;
 
 /* end */
 }
-
- .about-detail{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 10rem;
- }
- .about-text{
-
- }
- 
- .about-text p{
-font-size: 0.85rem;
-color: #14bf98;
-margin-bottom: 10px;
- }
- .about-text h1{
-    color: #484a46;
-    font: 700 1.75rem/2.125rem "Montserrat",sans-serif;
-    margin-bottom: 10px;
- }
- .about-text h3{
-    color: #787976;
-    font: 400 1rem/1.5625rem "Open Sans",sans-serif;
-
-   margin-top: 18px;
-    margin-bottom: 1.8rem;
-    line-height: 25px;
- }
- .about-text .about-me-sqrt{
-margin-top: 15px;
- }
- .about-text .about-me-sqrt .about-sqr1{
-display: flex;
-align-items: center;
-justify-self: center;
- }
- #about-zoom{
-    font-size: 15px;
- }
- .about-text i{
-    font-size: 0.5rem;
-    color: #14bf98;
-    padding: 0px 10px;
- }
- .about-text  span{
-    color: #787976;
-   
- }
- .about-me-sqrt{
-
- }
- .about-me-sqrt ul{
-    display: flex;
- }
- .about-me-sqrt ul li{
-    list-style: none;
- }
- .about-me-sqrt ul li a{
-    text-decoration: underline;
-    color: #787976;
- }
- .about-logo{
-
- }
- .about-logo h2{
-    color: #484a46;
-    font: 700 1.375rem/1.75rem "Montserrat",sans-serif;
-    margin-top: 2rem;
- }
- .about-logo-1{
-    display: flex;
-    margin-top: 2rem;
- }
- .abt-img{
-    background-image: url(https://www.free-css.com/assets/files/free-css-templates/preview/page259/aria/assets/images/hexagon-green.svg);
-    width: 50px;
-    height: 50px;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    margin: 0px 5px;
- }
- .abt-img i{
-    position: relative;
-    font-size: 23px;
-    color: white;
- }
- .aboutform{
-color: white;
- }
- .aboutform #about-code{
-width: 100%;
-padding: 9px 0px;
-color: white;
- }
- .aboutform form input{
-    width: 100%;
-    height: 3rem;
-    border-radius: 5px;
-    border: 1px solid #dadada;
-    
-    padding: 15px;
-    font-size: 15px;
-    color: #787976;
- }
- .aboutform form textarea{
-   
-    border-radius: 5px;
-    border: 1px solid #dadada;
-    
-    
-    font-size: 15px;
-    color: #787976;
- }
- .aboutform form input:hover{
-   
-    border: 1px solid #b3b1b1;
-    
- }
- #anch1{
-    color: #787976;
-    text-decoration: underline;
- }
- #about-code button{
-    width: 100%;
-    height: 3rem;
-    background: #14bf98;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 13px;
-    font-weight: 800;
-    margin-top: 1rem;
- }
- #about-code button:hover{
-    border:2px solid #14bf98;
-    background: transparent;
-    color: #14bf98;
-
- }
- #checkbox{
-    margin-top: 1rem;
-    font-size: 0.95rem;
-    font-weight: 100;
-    color: #787976;
- }
- .contact-detail{
-   
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    color: #fff;
-    padding-top: 4%;
- }
- .contact-main h4{
-    font: 700 1.25rem/1.625rem "Montserrat",sans-serif;
-    margin-bottom: 1rem;
- }
- .contact-main  ul{
-
- }
- .contact-main  ul li{
-list-style: none;
-line-height: 30px;
- }
- .contact-main  ul li a{
-    color: #dfe5ec;
-    text-decoration: underline;
-    font-size: 14px;
- }
- .contact-text{
-
- }
- .contact-text p{
-    color: #dfe5ec;
-    line-height: 22px;
-    font-size: 0.90rem;
- }
- footer{
-    margin-top: 8rem;
-    height: 52vh;
-    background-color: #153e52;
- }
- #copyright{
-    font: 400 0.875rem/1.375rem "Open Sans",sans-serif;
-    color: #ebe8e8;
-    text-align: center;
-    padding-top: 3rem;
-}
- 
