@@ -519,7 +519,7 @@ line-height: 25px;
  .scroll-card{
     display: flex;
  }
- @media screen and (min-width:375px) and (max-width:480px) {
+ @media screen and (min-width:375px) and (max-width:600px) {
     nav{
     
         display: flex;
@@ -777,19 +777,19 @@ width: 90px;
                     margin-bottom: 5rem;
                  }
                  .line1{
-                    width: 28rem;
+                    width: 100%;
                    
                     background: #14bf98;
                     margin-bottom: 15px;
                  }
                  .line2{
-                    width: 20rem;
+                    width: 76%;
                     
                     background: #14bf98;
                     margin-bottom: 15px;
                  }
                  .line3{
-                    width: 24rem;
+                    width: 90%;
                    
                     background: #14bf98;
                  }
@@ -1058,11 +1058,12 @@ width: 90px;
                 
                  }
                  .about-image img{
-                    width: 77%;
+                    width: 100% !important;
                     border-radius: 5px;
                  }
                  .about-txt{
-                
+                    margin-top: 15px;
+                    
                  }
                  .about-container{
                 
@@ -1087,15 +1088,18 @@ width: 90px;
                 
                  }
                  .about-sqr1{
-                    display: flex;
-                    align-items: center;
+                    
+                    align-items: normal !important;
+
                  }
                  .about-sqr1 i{
                     font-size: 0.5rem;
                     color: #14bf98;
+                    margin-top: 10px;
+}
                     
                 
-                 }
+                
                  .about-sqr1 span{
                     color:#787976;
                     font: 400 1rem/1.5625rem "Open Sans",sans-serif;
@@ -1103,13 +1107,13 @@ width: 90px;
                     line-height: 29px;
                  }
                  .main-cell{
-                    display: flex;
-                    justify-content: space-between;
-                    margin-top: 1.9rem;
+                    justify-content: center !important;
+                    flex-wrap: wrap;
                  }
                  .cell{
                 display: flex;
                 align-items: center;
+                padding: 4px 7px;
                 
                  }
                  .cell-no{
