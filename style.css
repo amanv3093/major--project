@@ -1194,6 +1194,7 @@ width: 90px;
                 .service-temp1-text{
                 margin-left:0rem !important;
                 margin-left: 30px !important;
+                font-family: monospace !important;
                 }
                 .service-circle{
                 display: flex;
@@ -1206,6 +1207,7 @@ width: 90px;
                     }
                 .service-temp1-text h1{
                     font-size: 1.3rem !important;
+                    font-family: inherit;
                     
                 }
                  .service-circle i{
@@ -1250,7 +1252,7 @@ width: 90px;
                  }
                  .service-temp2-title span{
                     color: #787976;
-                    padding: 0px 15px;
+                    padding: 2px 15px;
                     display: flex;
                     align-items: center;
                     cursor: pointer;
@@ -1752,6 +1754,8 @@ width: 90px;
                  .aboutform{
                 color: white;
                 max-width: 100%;
+                padding-left: 10px;
+    padding-right: 10px;
                  }
                  .aboutform #about-code{
                 width: 100%;
