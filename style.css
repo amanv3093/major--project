@@ -1957,7 +1957,7 @@ width: 90px;
                  }
                  footer{
                     margin-top: 8rem;
-                    height: 94vh !important;
+                    height: 90vh !important;
                     background-color: #153e52;
                  }
                  #copyright{
@@ -1976,7 +1976,7 @@ width: 90px;
 *****************
 ****************** */
 
-@media screen and (min-width:240px) and (max-width:374px) {
+@media screen and (min-width:240px) and (max-width:375px) {
    nav{
    
        display: flex;
@@ -2838,7 +2838,7 @@ width: 90px;
                 }
                 footer{
                    margin-top: 8rem;
-                   height: 179vh !important;
+                   height: 140vh !important;
                    background-color: #153e52;
                 }
                 #copyright{
