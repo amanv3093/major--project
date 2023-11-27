@@ -2032,6 +2032,9 @@ width: 90px;
    .callme{
       height: 170vh !important;
    }
+   #down-bar #fb #fb33{
+      display: none;
+   }
    nav{
    
        display: flex;
