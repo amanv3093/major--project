@@ -545,7 +545,7 @@ line-height: 25px;
  }
  
  .callme{
-    height: 100vh;
+    height: 137vh;
     width: 100%;
     background-color: #153e52;;
     color: white;
@@ -1106,7 +1106,7 @@ line-height: 30px;
 
 /*  */
 
-@media screen and (min-width:375px) and (max-width:600px) {
+@media screen and (min-width:374px) and (max-width:600px) {
     nav{
     
         display: flex;
@@ -1445,7 +1445,7 @@ width: 90px;
                  }
                 /* ********* */
                 .callme{
-                    height: 110vh !important;
+                    height: 137vh !important;
                  }
                  .callme-details{
                 flex-wrap: wrap;
@@ -1976,7 +1976,7 @@ width: 90px;
 *****************
 ****************** */
 
-@media screen and (min-width:240px) and (max-width:375px) {
+@media screen and (min-width:240px) and (max-width:370px) {
    nav{
    
        display: flex;
@@ -2322,7 +2322,7 @@ width: 90px;
                 }
                /* ********* */
                .callme{
-                   height: 194vh !important;
+                   height: 137vh !important;
                 }
                 .callme-details{
                flex-wrap: wrap;
