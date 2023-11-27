@@ -5,9 +5,7 @@ box-sizing: border-box;
 font-family: "Open Sans",sans-serif;
 text-decoration: none;
 }
-html{
-   */
-}
+
 body{
     height:200vh;
 }
@@ -78,7 +76,7 @@ font-size: 14px;
     position: absolute;
     
 }
-.chn{}
+
 .chn:hover{
     /* filter: brightness(0) saturate(100%) invert(96%) sepia(0%) saturate(1837%) hue-rotate(321deg) brightness(112%) contrast(99%); */
     background-color: beige;
@@ -516,7 +514,7 @@ line-height: 25px;
    width: 69%;
    margin: 4rem auto;
  }
- .testimonial-card-img{
+ .testimonial-card-img{.chn{}
    border-radius: 50%;
    width: 6rem;
    height: auto;
@@ -1897,7 +1895,7 @@ width: 90px;
                  .aboutform form input:hover{
                    
                     border: 1px solid #b3b1b1;
-                    https://meet.google.com/ttr-kqfx-axv
+                   
                  }
                  #anch1{
                     color: #787976;
@@ -2850,4 +2848,4 @@ width: 90px;
                 
 
 /* end */
-}
+            }
