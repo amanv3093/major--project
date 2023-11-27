@@ -1105,25 +1105,72 @@ line-height: 30px;
 
 
 /*  */
-
+/* .topnav {
+   overflow: hidden;
+   background-color: #333;
+   position: relative;
+ }
+ 
+ .topnav #myLinks {
+   display: none;
+ }
+ 
+ .topnav a {
+   color: white;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+   display: block;
+ }
+ 
+ .topnav a.icon {
+   background: black;
+   display: block;
+   position: absolute;
+   right: 0;
+   top: 0;
+ } */
 @media screen and (min-width:374px) and (max-width:600px) {
     nav{
+      margin-left: 8px !important;
+  width: 100%;
     
-        display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 9px !important;
-    margin-right: 20px !important;
-    height: 55px;
 }
     #menu-bar{
-        display: inline;
-        font-size: 27px;
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+      margin-top: 15px;
+      margin-right: 19px;
+      font-size: 30px;
+      
         }
     .menu-list{
-        display: none;
-    
+      overflow: hidden;
+      background-color:#113448 !important;
+      position: relative;
+      width: 86%;
+    margin-top: 26rem;
 }  
+#mylink{
+   display: none;
+}
+.menu-list ul li{
+   
+}
+
+.menu-list ul li a{
+   color: white;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+   display: block;
+
+} 
+.menu-list ul li a:hover{
+   color: #14bf98;
+} 
 nav img{
 height: 82px;
 width: 90px;
@@ -1965,7 +2012,7 @@ width: 90px;
                     padding-top: 3rem;
                 }
                 .callme{
-                  height: 127vh !important;
+                  height: 122vh !important;
                }
 
 /* end */
@@ -2845,7 +2892,7 @@ width: 90px;
                 }
                 footer{
                    margin-top: 8rem;
-                   height: 13git 0vh !important;
+                   height:  90vh !important;
                    background-color: #153e52;
                 }
                 #copyright{

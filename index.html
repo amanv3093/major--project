@@ -12,14 +12,27 @@
 </head>
 
 <body>
+    <!-- <div class="topnav">
+        <a href="#home" class="active">Logo</a>
+        <div id="myLinks">
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+        </div> -->
+<!-- 
+        
+           -->
+
     <header>
+      
         <nav>
             <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page259/aria/assets/images/logo.svg"
                 alt="" height="120" width="120">
-            <i id="menu-bar" class="fa-solid fa-bars" style="color: #fafafa;"></i>
+                <i  href="javascript:void(0);"  onclick="myFunction()" id="menu-bar" class="fa-solid fa-bars" style="color: #fafafa;"></i>
+               
             <div class="menu-list">
-
-                <ul class="menu-list-hidden">
+               
+                <ul class="menu-list-hidden" id="mylink">
                     <li><a href="#home" id="header-home">HOME</a></li>
                     <li><a href="#intro">INTRO</a></li>
                     <li><a href="#services">SERVICES</a></li>
@@ -32,6 +45,7 @@
 
 
                     <ul>
+                       
 
                         <li>
 
@@ -729,7 +743,20 @@
         </section>
 
 
-
+        <script>
+        
+            function myFunction() {
+              var x = document.getElementById("mylink");
+              if (x.style.display === "block") {
+                x.style.display = "none";
+               
+              } else {
+                x.style.display = "block";
+               
+              }
+            }
+            
+                </script>
 
 
 </p>
