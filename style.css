@@ -1999,11 +1999,11 @@ height: 82px;
 width: 90px;
 }
 .home{
-   height: 115vh !important;
+   height: 100vh !important;
 }
 .home-all-heading{
    
-   padding-top: 30% !important;
+   padding-top: 45% !important;
    }
    .home div h1{
       font-size: 2rem !important;
@@ -2086,7 +2086,7 @@ width: 90px;
            flex-wrap: wrap;
    align-items: center;
    text-align: center;
-   margin: 1px;
+   
        }
        br{
          display: none;
@@ -2271,6 +2271,7 @@ width: 90px;
                     min-width: 19.4rem;
                      height: 15rem;
                      border: none;
+                     margin-left: 12px;
                   }
                   .scroll-card{
                      display: flex;
@@ -2514,6 +2515,7 @@ width: 90px;
                 }
                 .Consultants-box1{
                    margin-block: 2rem;
+                   margin-bottom: 25px;
                 }
                 .con-icons-box{
                    display: flex;
@@ -2722,7 +2724,7 @@ width: 90px;
                    margin-top: 1rem !important;
                   
                    flex-wrap: wrap;
-                       margin: 0px 31px;
+                   margin: 0px 2px;
 }
 
                 
