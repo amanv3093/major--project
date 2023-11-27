@@ -1136,6 +1136,13 @@ line-height: 30px;
   width: 100%;
     
 }
+#down-arrow{
+   display: flex;
+   align-items: center;
+}
+#down-bar,.hexgonal-cls{
+   display: none;
+}
     #menu-bar{
       display: block;
       position: absolute;
@@ -1151,7 +1158,7 @@ line-height: 30px;
       background-color:#113448 !important;
       position: relative;
       width: 86%;
-    margin-top: 26rem;
+    margin-top: 24rem;
 }  
 #mylink{
    display: none;
@@ -2015,6 +2022,8 @@ width: 90px;
                   height: 122vh !important;
                }
 
+               
+
 /* end */
 }
 
@@ -2029,6 +2038,10 @@ width: 90px;
 
 
 @media screen and (min-width:240px) and (max-width:370px) {
+   #down-bar{
+      display: flex;
+      align-items: center;
+   }
    .callme{
       height: 170vh !important;
    }
@@ -2043,15 +2056,43 @@ width: 90px;
    margin-left: 9px !important;
    margin-right: 20px !important;
    height: 55px;
+   width: 100%;
 }
-   #menu-bar{
-       display: inline;
-       font-size: 27px;
-       }
-   .menu-list{
-       display: none;
+#menu-bar{
+   display: block;
+   position: absolute;
+   right: 0;
+   top: 0;
+   margin-top: 15px;
+   margin-right: 19px;
+   font-size: 30px;
    
+     }
+ .menu-list{
+   overflow: hidden;
+   background-color:#113448 !important;
+   position: relative;
+   width: 86%;
+ margin-top: 24rem;
 }  
+#mylink{
+display: none;
+}
+.menu-list ul li{
+
+}
+
+.menu-list ul li a{
+color: white;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+display: block;
+
+} 
+.menu-list ul li a:hover{
+color: #14bf98;
+} 
 nav img{
 height: 82px;
 width: 90px;
