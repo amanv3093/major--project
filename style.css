@@ -2244,7 +2244,7 @@ width: 90px;
                   }
                   .testimonial-card{
                     width: 69%;
-                    margin: 4rem auto;
+                    margin: 4rem 102px;
                   }
                   .testimonial-card-img{
                      border-radius: 50%;
@@ -2322,7 +2322,7 @@ width: 90px;
                 }
                /* ********* */
                .callme{
-                   height: 100vh !important;
+                   height: 266vh !important;
                 }
                 .callme-details{
                flex-wrap: wrap;
@@ -2839,7 +2839,7 @@ width: 90px;
                 }
                 footer{
                    margin-top: 8rem;
-                   height: 130vh !important;
+                   height: 13git 0vh !important;
                    background-color: #153e52;
                 }
                 #copyright{
