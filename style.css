@@ -7,17 +7,19 @@ text-decoration: none;
 }
 
 body{
-    height:200vh;
+    
 }
 header{
     
     background: #113448;
-    position: fixed;
+    position: sticky;
     width: 100%;
     z-index: 1000;
+    top: 0;
+    
  
 }nav{
-    
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,9 +34,7 @@ header{
 display: none;
 }
 
-.chn{
-    background-color: purple;
-}
+
 
 .menu-list{
 
@@ -1131,10 +1131,18 @@ line-height: 30px;
    top: 0;
  } */
 @media screen and (min-width:374px) and (max-width:600px) {
-    nav{
-      margin-left: 8px !important;
-  width: 100%;
     
+   nav{
+     
+  width: 100%;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+
+
+    
+}
+nav img{
+   margin-left: 1rem;
 }
 #down-arrow{
    display: flex;
@@ -1156,9 +1164,10 @@ line-height: 30px;
     .menu-list{
       overflow: hidden;
       background-color:#113448 !important;
-      position: relative;
-      width: 86%;
-    margin-top: 24rem;
+      position: absolute;
+      width: 100%;
+   top:3rem;
+   left: 0;
 }  
 #mylink{
    display: none;
@@ -1183,7 +1192,8 @@ height: 82px;
 width: 90px;
 }
 .home{
-    height: 77vh !important;
+   height: auto !important;
+   padding-bottom: 6rem;
 }
 .home-all-heading{
     
@@ -2009,7 +2019,8 @@ width: 90px;
                  }
                  footer{
                     margin-top: 8rem;
-                    height: 85vh !important;
+                    height: auto !important;
+                    padding-bottom: 4rem;
                     background-color: #153e52;
                  }
                  #copyright{
@@ -2019,7 +2030,8 @@ width: 90px;
                     padding-top: 3rem;
                 }
                 .callme{
-                  height: 122vh !important;
+                  height: auto !important;
+                  padding-bottom: 5rem;
                }
 
                
@@ -2035,70 +2047,83 @@ width: 90px;
 *****************
 ***************
 *******************/
+html{
+   border: 1px solid red;
+   color: black;
+}
 
-
-@media screen and (min-width:240px) and (max-width:370px) {
-   #down-bar{
-      display: flex;
-      align-items: center;
+@media screen and (min-width:240px) and (max-width:374px) {
+  
+   #down-bar,.hexgonal-cls{
+      display: none;
    }
    .callme{
-      height: 170vh !important;
+      height: auto !important;
+      padding-bottom: 4rem;
    }
    #down-bar #fb #fb33{
       display: none;
    }
    nav{
-   
+     
+      width: 100%;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    
+    
+        
+    }
+    #down-arrow{
        display: flex;
-   justify-content: space-between;
-   align-items: center;
-   margin-left: 9px !important;
-   margin-right: 20px !important;
-   height: 55px;
-   width: 100%;
-}
-#menu-bar{
-   display: block;
-   position: absolute;
-   right: 0;
-   top: 0;
-   margin-top: 15px;
-   margin-right: 19px;
-   font-size: 30px;
-   
-     }
- .menu-list{
-   overflow: hidden;
-   background-color:#113448 !important;
-   position: relative;
-   width: 86%;
- margin-top: 24rem;
-}  
-#mylink{
-display: none;
-}
-.menu-list ul li{
-
-}
-
-.menu-list ul li a{
-color: white;
-padding: 14px 16px;
-text-decoration: none;
-font-size: 17px;
-display: block;
-
-} 
-.menu-list ul li a:hover{
-color: #14bf98;
-} 
-nav img{
-height: 82px;
-width: 90px;
-}
+       align-items: center;
+    }
+    #down-bar,.hexgonal-cls{
+       display: none;
+    }
+        #menu-bar{
+          display: block;
+          position: absolute;
+          right: 0;
+          top: 0;
+          margin-top: 15px;
+          margin-right: 19px;
+          font-size: 30px;
+          
+            }
+        .menu-list{
+          overflow: hidden;
+          background-color:#113448 !important;
+          position: absolute;
+          width: 100%;
+       top:3rem;
+       left: 0;
+    }  
+    #mylink{
+       display: none;
+    }
+    .menu-list ul li{
+       
+    }
+    
+    .menu-list ul li a{
+       color: white;
+       padding: 14px 16px;
+       text-decoration: none;
+       font-size: 17px;
+       display: block;
+    
+    } 
+    .menu-list ul li a:hover{
+       color: #14bf98;
+    } 
+    nav img{
+    height: 82px;
+    width: 90px;
+    margin-left: 1rem;
+    }
 .home{
-   height: 100vh !important;
+   height: auto !important;
+   padding-bottom: 6rem
 }
 .home-all-heading{
    
@@ -2136,7 +2161,7 @@ width: 90px;
    }
    .content{
        flex-wrap: wrap;
-       margin-left: 5px
+       margin-left: auto;
        }
        
        .content-img{
@@ -2936,7 +2961,8 @@ width: 90px;
                 }
                 footer{
                    margin-top: 8rem;
-                   height:  90vh !important;
+                   height: auto !important;
+                   padding-bottom: 3rem;
                    background-color: #153e52;
                 }
                 #copyright{
