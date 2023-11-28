@@ -2047,10 +2047,6 @@ width: 90px;
 *****************
 ***************
 *******************/
-html{
-   border: 1px solid red;
-   color: black;
-}
 
 @media screen and (min-width:240px) and (max-width:374px) {
   
