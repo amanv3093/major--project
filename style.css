@@ -32,6 +32,7 @@ header{
 }
 #menu-bar{
 display: none;
+
 }
 #down-bar{
 
@@ -1165,6 +1166,7 @@ nav img{
       margin-top: 15px;
       margin-right: 19px;
       font-size: 30px;
+      color: white;
       
         }
     .menu-list{
