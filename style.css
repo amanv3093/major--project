@@ -33,7 +33,9 @@ header{
 #menu-bar{
 display: none;
 }
+#down-bar{
 
+}
 
 
 .menu-list{
@@ -61,7 +63,7 @@ font-size: 14px;
 .menu-list ul li a{
     color: white;
 }
-.menu-list ul li a:hover{
+.menu-list ul li :hover{
     color: #14bf98;
 }
 #about-section{
@@ -1069,11 +1071,15 @@ color: white;
  .contact-main  ul li{
 list-style: none;
 line-height: 30px;
+cursor: pointer;
  }
  .contact-main  ul li a{
     color: #dfe5ec;
     text-decoration: underline;
     font-size: 14px;
+ }
+ .contact-main  ul li a:hover{
+color: rgb(167, 164, 164);
  }
  .contact-text{
 
@@ -2045,7 +2051,7 @@ width: 90px;
 ****************** ********
 (***************
 *****************
-***************
+**************git *
 *******************/
 
 @media screen and (min-width:240px) and (max-width:374px) {
